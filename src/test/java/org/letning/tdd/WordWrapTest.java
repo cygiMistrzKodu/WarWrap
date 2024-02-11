@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class WardWrapTest {
+public class WordWrapTest {
 
     @Test
     void firstTest() {

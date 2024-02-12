@@ -7,9 +7,13 @@ import static org.junit.jupiter.api.Assertions.*;
 public class WordWrapTest {
 
     @Test
-    void firstTest() {
+    public void testWrap() {
+        assertEquals("Wołam", wrap("Wołam",7));
+        assertEquals("Wołam,\nja",wrap("Wołam, ja",7));
 
-        fail();
+    }
 
+    private String wrap(String s, int w) {
+        return s.replace(" ","\n");
     }
 }

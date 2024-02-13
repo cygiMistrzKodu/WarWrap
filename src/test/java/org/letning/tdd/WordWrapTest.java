@@ -15,6 +15,8 @@ public class WordWrapTest {
     public void testWrap() {
         assertWrapped("",1,"");
         assertWrapped("x",1,"x");
+        assertWrapped("xx",1,"x\nx");
+
 
     }
 

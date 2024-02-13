@@ -29,7 +29,7 @@ public class WordWrapTest {
         if (w >= s.length()) {
             return s;
         } else {
-            return s.substring(0, w) + "\n" + wrap(s.substring(w),w);
+            return s.substring(0, w) + "\n" + wrap(s.substring(w).trim(),w);
         }
 
     }

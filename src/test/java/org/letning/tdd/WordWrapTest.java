@@ -21,6 +21,7 @@ public class WordWrapTest {
         assertWrapped("xxx", 2,"xx\nx");
         assertWrapped("xxx", 3,"xxx");
         assertWrapped("x x", 1,"x\nx");
+        assertWrapped("x x", 2,"x\nx");
 
 
     }

@@ -15,6 +15,7 @@ public class WordWrapTest {
     public void testWrap() {
         assertWrapped("Wołam",7,"Wołam");
         assertWrapped("Wołam, ja",7,"Wołam,\nja");
+        assertWrapped("ja, syn",7,"ja, syn" );
 
     }
 

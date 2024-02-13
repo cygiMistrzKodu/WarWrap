@@ -13,14 +13,19 @@ public class WordWrapTest {
 
     @Test
     public void testWrap() {
-        assertWrapped("",1,"");
-        assertWrapped("x",1,"x");
-        assertWrapped("xx",1,"x\nx");
+        assertWrapped("", 1, "");
+        assertWrapped("x", 1, "x");
+        assertWrapped("xx", 1, "x\nx");
 
 
     }
 
     private String wrap(String s, int w) {
-        return s;
+        if (w >= s.length()) {
+            return s;
+        } else {
+            return s.substring(0, w) + "\n" + s.substring(w);
+        }
+
     }
 }

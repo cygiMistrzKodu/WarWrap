@@ -14,10 +14,11 @@ public class WordWrapTest {
     @Test
     public void testWrap() {
         assertWrapped("",1,"");
+        assertWrapped("x",1,"x");
 
     }
 
     private String wrap(String s, int w) {
-        return "";
+        return s;
     }
 }

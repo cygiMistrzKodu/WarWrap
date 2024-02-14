@@ -43,6 +43,9 @@ public class WordWrapTest {
         assertWrapped("xx xx xx", 7, "xx xx\nxx");
         assertWrapped("xx xx xx", 8, "xx xx xx");
 
+        assertWrapped("Wołam, ja, syn polskiej ziemi, a zarazem ja, Jan Paweł II, papież. Wołam z całej głębi tego Tysiąclecia, wołam w przeddzień Święta Zesłania, wołam wraz z wami wszystkimi:", 15,
+                "Wołam, ja, syn\npolskiej ziemi,\na zarazem ja,\nJan Paweł II,\npapież. Wołam z\ncałej głębi\ntego\nTysiąclecia,\nwołam w\nprzeddzień\nŚwięta\nZesłania, wołam\n" +
+                        "wraz z wami\nwszystkimi:");
 
     }
 

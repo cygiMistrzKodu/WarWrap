@@ -1,3 +1,11 @@
 Wołam, ja syn polskiej ziemi, a zarazem ja, Jan Paweł II, papież.
 Wołam z całej głębi tego Tysiąclecia, wołam w przeddzień Święta
 Zesłania, wołam wraz z wami wszystkimi:
+
+
+Zasady:
+
+Problem przenoszenia słów między werszami:
+
+Do ciągu znaków przełamanie tak aby tekst mieści się w kolumnie o szerokości N znaków
+Jeżeli możliwe wiersze dzielone pomiędzy poszczególnymi wyrazami.
